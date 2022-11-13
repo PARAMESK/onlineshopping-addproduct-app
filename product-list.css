@@ -36,9 +36,10 @@ body{
     margin: -5px;
 }
 .item-no p{
-    top: -5px;
+    top: -3px;
     left: 2px;
     position: relative;
+    font-size: small;
 }
 .product-list{
     padding:10px;
@@ -114,3 +115,63 @@ body{
         overflow: hidden;
     }
     }
+    .price {
+        color: #000;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 49px;
+        margin: 0;
+        padding: 0 30px;
+    }
+   
+ .quantity-price{
+    border:2px solid black;
+    width:max-content;
+    color: #000;
+        font-size: 15px;
+        font-weight: 300;
+        margin: 0;
+        padding: 0 20px;
+        float:left;
+
+ }
+ .full-price{
+    float:right;
+ }
+ .qt-minus{
+    border-right:1px solid black;
+    padding-right:15px;
+    height:100%;
+    font-weight:300px;
+    font-size: large;
+    cursor: pointer;
+ }
+.qt{
+    border-right:1px solid black;
+    padding:0 15px;
+    height:100%;
+    font-weight:400px;
+    font-size: large;
+}
+.qt-plus{
+    padding-left:15px;
+    height:100%;
+    font-weight:400px;
+    font-size: large;
+    cursor: pointer;
+}
+.right {
+	float: right;
+}
+.remove-item{
+    float:right;
+    margin:0 0 0 400px;
+    padding:0;
+}
+.price-rs{
+    margin-left:200px;
+}
+.priceOne{
+    position:relative;
+    top:35px;
+}
