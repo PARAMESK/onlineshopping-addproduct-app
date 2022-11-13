@@ -1,0 +1,116 @@
+
+body{
+    width:100%;
+    align-items: center;
+}
+.header{
+    background-color: blue;
+    display: inline-flex;
+    width:100%;
+    max-height: fit-content;
+}
+.pheader{
+    color:white;
+    float: left;
+    width:80%;
+    margin: 20px;
+}
+.add-cart{
+    color: white !important;
+    margin: 20px;
+}
+.cart-button{
+    border: none;
+    background:none;
+}
+.item-no{
+    border:2px solid rgb(216, 24, 24);
+    border-radius: 100px;
+    background-color: dimgrey;
+    color: white;
+    position:relative;
+   bottom:-15px;
+    right:20px;
+    height:20px;
+    width:20px;
+    margin: -5px;
+}
+.item-no p{
+    top: -5px;
+    left: 2px;
+    position: relative;
+}
+.product-list{
+    padding:10px;
+}
+.product{
+    border:1px solid silver;
+    min-height:200px;
+    border-radius: 20px;
+    margin:10px 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.product-img{
+    width:300px;
+    height:200px;
+    overflow: hidden;
+}
+.product img{
+    max-height:200px;
+    max-width:300px;
+    border-radius: 15px;
+    
+}
+.product-detail{
+    margin:0 20px;
+    padding:20px;
+}
+.product-name{
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.btn-primary{
+    background-color: blue;
+}
+.price-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    width:70%;
+}
+.product:hover{
+    position: relative;
+   bottom: 10px;
+    transition: 0.5s;
+}
+
+/* ONly when screen size is less than 501px. */
+@media only screen and (max-width: 575.98px){
+ 
+    .product img{
+        max-height:150px;
+        max-width:200px;
+        border-radius: 15px;
+        
+    }
+    .product {
+        border: 1px solid silver;
+        max: 150px;
+        height: 150px;
+        border-radius: 20px;
+        margin: 10px 10px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .product-img {
+        width: 300px;
+        /* height: 200px; */
+        overflow: hidden;
+    }
+    }
